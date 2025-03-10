@@ -24,4 +24,31 @@ main h3 {
 	font-size: 105%;
 }
 
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+footer p {
+	text-align: center;
+}
+
+.shadow {
+	text-shadow: 5px 5px 5px var(--global-color-1);
+}
+
+:root {
+	--global-color-1: #800000;
+}
 /* the styles for the footer */
